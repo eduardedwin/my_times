@@ -15,16 +15,21 @@ header {
 
 .logo {
   display: flex;
+  align-items: center;
 }
 
 .logo span {
   color: MediumAquaMarine;
+  margin-left: 10px;
 }
 
 nav {
   display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
 nav a {
   color: Black;
+  padding: 12px;
 }
