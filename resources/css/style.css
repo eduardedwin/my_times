@@ -5,17 +5,22 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid Black;
+  background-color: #FFF;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  padding: 10px 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  height: 85px;
 }
 
 .logo {
   display: flex;
   align-items: center;
+  margin-left: 32px;
   width: 100%;
 }
 
@@ -27,7 +32,7 @@ header {
 nav {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding-right: 32px;
 }
 
 nav a {
@@ -42,8 +47,11 @@ div {
 .main-content {
   display: flex;
   margin: 0 auto;
-  padding: 0;
+  padding-top: 35px;
   border: 1px solid Black;
+  position: relative;
+  top: 85px;
+  width: 90%;
 }
 
 .column {
