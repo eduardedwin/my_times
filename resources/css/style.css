@@ -40,15 +40,10 @@ nav a {
   padding: 12px;
 }
 
-div {
-  border: 1px solid Black;
-}
-
 .main-content {
   display: flex;
   margin: 0 auto 80px auto;
   padding-top: 35px;
-  border: 1px solid Black;
   position: relative;
   top: 85px;
   width: 90%;
@@ -75,6 +70,7 @@ div {
 .tuna {
   background-image: url("../images/img-story-main.png");
   height: 300px;
+  width: 630px;
 }
 
 .earth {
@@ -105,4 +101,22 @@ div {
 .tuna.image {
   font-size: 40px;
   text-align: left;
+}
+
+.supporting-news {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.supporting-news .news {
+  width: 300px;
+}
+
+.medium .news {
+  width: 300px;
+}
+
+.orca, .burger {
+  margin-bottom: 85px;
 }
