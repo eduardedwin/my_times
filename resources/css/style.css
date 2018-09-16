@@ -46,7 +46,7 @@ div {
 
 .main-content {
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 80px auto;
   padding-top: 35px;
   border: 1px solid Black;
   position: relative;
@@ -55,8 +55,9 @@ div {
 }
 
 .column {
+  display: flex;
   flex-direction: column;
-  margin-right: 32px;
+  margin-right: 33px;
 }
 
 .column.large {
@@ -69,4 +70,19 @@ div {
 
 .column.small {
   width: 240px;
+}
+
+.main-news-header {
+  background-image: url("../images/img-story-main.png");
+  height: 300px;
+}
+
+.earth {
+  background-image: url("../images/img-story-2.png");
+  height: 300px;
+}
+
+.camera {
+  background-image: url("../images/img-story-3.png");
+  height: 300px;
 }
