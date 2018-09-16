@@ -2,3 +2,29 @@ body {
   margin: 0 auto;
   padding: 0;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid Black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo span {
+  color: MediumAquaMarine;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: Black;
+}
