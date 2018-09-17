@@ -20,8 +20,8 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  margin-left: 32px;
   width: 100%;
+  margin-left: 32px;
 }
 
 .logo span {
@@ -35,7 +35,7 @@ nav {
   padding-right: 32px;
 }
 
-nav a {
+a {
   color: Black;
   padding: 12px;
 }
@@ -46,7 +46,7 @@ nav a {
   padding-top: 35px;
   position: relative;
   top: 85px;
-  width: 90%;
+  width: 1240px;
 }
 
 .column {
@@ -119,4 +119,26 @@ nav a {
 
 .orca, .burger {
   margin-bottom: 85px;
+}
+
+.news-bites {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.news-bites span {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid Black;
+  padding: 10px 20px;
 }
